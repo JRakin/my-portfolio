@@ -120,7 +120,7 @@ const Banner = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="d-flex flex-wrap justify-content-center">
             <button onClick={openModal} className="btn-brand mr-3">
               Get In Touch
             </button>

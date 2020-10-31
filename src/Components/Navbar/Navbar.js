@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Navbar.css';
 import Pdf from '../../files/juaid-rakin-resume.pdf';
 
@@ -33,17 +33,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link mr-5" to="/projects">
+              <Link className="nav-link mr-5" to="/#projects">
                 Projects
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link mr-5" to="/blogs">
+              <Link className="nav-link mr-5" to="/#blogs">
                 Blogs
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link mr-5" to="/about">
+              <Link className="nav-link mr-5" to="/#about">
                 About
               </Link>
             </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                className="nav-link btn-resume"
+                className="nav-link btn-resume text-center"
                 href={Pdf}
               >
                 Resume

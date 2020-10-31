@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectDetails from '../ProjectDetails/ProjectDetails';
 import './Projects.css';
+import Fade from 'react-reveal/Fade';
 
 const Projects = () => {
   const projectData = [
@@ -8,7 +9,7 @@ const Projects = () => {
       id: '101',
       name: 'creative agency',
       description:
-        'Creative agency is a full-stack IT service selling application. Where user can order a service. Both user and admin has an interactive dashboard. Admin can manage service and orders. Implemented User Interface with react.js, react-spring and bootstrap.',
+        'Creative agency is a full-stack IT service selling application.',
       technology: [
         'react.js',
         'express.js',
@@ -22,8 +23,7 @@ const Projects = () => {
     {
       id: '102',
       name: 'volunteer network',
-      description:
-        'Volunteer Network is a full-stack web application. Where user can register to a volunteer service. Both user and admin has an interactive dashboard. Admin can manage service and orders. Implemented User Interface with react.js and bootstrap.',
+      description: 'Volunteer Network is a full-stack web application.',
       technology: [
         'react.js',
         'express.js',
@@ -37,8 +37,7 @@ const Projects = () => {
     {
       id: '103',
       name: 'travel guru',
-      description:
-        'Travel Guru is MERN stack tour management web application. Where user can book a tour. Admin can manage tours and has an interactive dashboard. Implemented User Interface with react.js and bootstrap.',
+      description: 'Travel Guru is MERN stack tour management web application.',
       technology: [
         'react.js',
         'express.js',
@@ -51,19 +50,25 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="project-container">
+    <div id="projects" className="project-container my-5 p-4">
       <div className="container">
-        <h1
-          className="text-center p-3 mt-3"
-          style={{ color: '#21bf73', fontWeight: '700' }}
-        >
-          Projects
-        </h1>
-        <div className="row p-4">
-          {projectData.map((project) => (
-            <ProjectDetails project={project} key={project.id}></ProjectDetails>
-          ))}
-        </div>
+        <Fade left>
+          <h1
+            className="text-center p-3 mt-3"
+            style={{ color: '#21bf73', fontWeight: '700' }}
+          >
+            Projects
+          </h1>
+
+          <div className="row p-4">
+            {projectData.map((project) => (
+              <ProjectDetails
+                project={project}
+                key={project.id}
+              ></ProjectDetails>
+            ))}
+          </div>
+        </Fade>
       </div>
     </div>
   );
