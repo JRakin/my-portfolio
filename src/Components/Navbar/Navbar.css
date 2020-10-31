@@ -1,0 +1,10 @@
+.nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn-resume {
+  background-image: linear-gradient(55deg, #d2f6c5, #28df99);
+  padding: 6px 22px;
+  border-radius: 4px;
+  color: #fff;
+}

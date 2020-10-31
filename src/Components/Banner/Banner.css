@@ -1,0 +1,65 @@
+.transitions-item {
+  overflow: hidden;
+  width: 100%;
+  color: rgb(104, 104, 104);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 5em;
+  font-weight: 800;
+  text-transform: uppercase;
+  will-change: transform, opacity, height;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: 80px;
+}
+.social-icons ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.btn-brand {
+  background-image: linear-gradient(55deg, #d2f6c5, #28df99);
+  font-size: 18px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  padding: 6px 22px;
+  border-radius: 30px;
+  color: #004445;
+  opacity: 0.8;
+  transition: all 0.2s;
+}
+
+.btn-brand:hover,
+.btn-brand:active,
+.btn-brand:focus {
+  opacity: 1;
+  outline: none;
+  color: #004445;
+  text-decoration: none;
+  border: none;
+}
+.social-icons {
+  color: #004445;
+  font-size: 40px;
+}
+
+.social-icons ul li a {
+  color: #004445;
+}
+
+.facebook:hover {
+  color: #1778f2;
+}
+.github:hover {
+  color: #211f1f;
+}
+.linkedin:hover {
+  color: #0e76a8;
+}
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  outline: none;
+}

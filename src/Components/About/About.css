@@ -1,0 +1,11 @@
+.skills ul li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 4px;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #21bf73;
+}
