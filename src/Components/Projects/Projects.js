@@ -10,12 +10,7 @@ const Projects = () => {
       name: 'creative agency',
       description:
         'Creative agency is a full-stack IT service selling application.',
-      technology: [
-        'react.js',
-        'express.js',
-        'mongodb',
-        'firebase-authentication',
-      ],
+      technology: ['react.js', 'express.js', 'mongodb', 'firebase-auth'],
       image: 'https://i.ibb.co/kJZFW2F/Capture2.png',
       live: 'https://creative-agency-bdesh.web.app/',
       gitHub: 'https://github.com/JRakin/creative-agency',
@@ -24,12 +19,7 @@ const Projects = () => {
       id: '102',
       name: 'volunteer network',
       description: 'Volunteer Network is a full-stack web application.',
-      technology: [
-        'react.js',
-        'express.js',
-        'mongodb',
-        'firebase-authentication',
-      ],
+      technology: ['react.js', 'express.js', 'mongodb', 'firebase-auth'],
       image: 'https://i.ibb.co/1KPmG5w/Capture.png',
       live: 'https://volunteer-network-jr.web.app/',
       gitHub: 'https://github.com/JRakin/volunteer-network',
@@ -38,12 +28,7 @@ const Projects = () => {
       id: '103',
       name: 'travel guru',
       description: 'Travel Guru is MERN stack tour management web application.',
-      technology: [
-        'react.js',
-        'express.js',
-        'mongodb',
-        'firebase-authentication',
-      ],
+      technology: ['react.js', 'express.js', 'mongodb', 'firebase-auth'],
       image: 'https://i.ibb.co/6yX8VPp/Capture1.png',
       live: 'https://travel-guru-juaid.web.app/',
       gitHub: 'https://github.com/JRakin/my-travel-guru',
@@ -55,7 +40,7 @@ const Projects = () => {
         <Fade left>
           <h1
             className="text-center p-3 mt-3"
-            style={{ color: '#21bf73', fontWeight: '700' }}
+            style={{ color: '#00adb5', fontWeight: '700' }}
           >
             Projects
           </h1>

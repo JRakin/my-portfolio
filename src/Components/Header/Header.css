@@ -1,4 +1,9 @@
 .banner-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url('../../images/backImage.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
-  background-color: #f7fbe1;
 }

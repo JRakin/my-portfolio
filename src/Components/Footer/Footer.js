@@ -36,6 +36,19 @@ const Footer = () => {
             </li>
             <li>
               <a
+                className="medium text-white"
+                target="_blank"
+                rel="noreferrer"
+                href="https://juaidrakin1.medium.com/"
+              >
+                <FontAwesomeIcon
+                  className="social-icon"
+                  icon={['fab', 'medium']}
+                />
+              </a>
+            </li>
+            <li>
+              <a
                 className="facebook text-white"
                 target="_blank"
                 rel="noreferrer"

@@ -6,12 +6,12 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
-    <div id="about" className="my-5 p-5" style={{ backgroundColor: '#f7fbe1' }}>
+    <div id="about" className="my-5 p-5" style={{ backgroundColor: '#eeeeee' }}>
       <div className="container">
         <Fade up>
           <h1
             className="text-center mt-2"
-            style={{ color: '#21bf73', fontWeight: '700' }}
+            style={{ color: '#00adb5', fontWeight: '700' }}
           >
             About Juaid
           </h1>
@@ -49,6 +49,19 @@ const About = () => {
                   </li>
                   <li>
                     <a
+                      className="medium"
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://juaidrakin1.medium.com/"
+                    >
+                      <FontAwesomeIcon
+                        className="social-icon"
+                        icon={['fab', 'medium']}
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       className="facebook"
                       target="_blank"
                       rel="noreferrer"
@@ -62,9 +75,9 @@ const About = () => {
                   </li>
                 </ul>
               </div>
-              <h1 style={{ fontSize: '44px' }} className="my-2">
+              <h3 style={{ color: '#00adb5' }} className="my-2">
                 Hello, This is Juaid.
-              </h1>
+              </h3>
               <p style={{ fontSize: '18px' }}>
                 Juaid has a passion for web development. He is currently working
                 with <span className="font-weight-bold">react.js</span> and{' '}
@@ -77,7 +90,7 @@ const About = () => {
             </div>
             <div className="col-md-6 p-3">
               <h2 className="text-center mb-3">
-                Skills <span style={{ color: '#21bf73' }}>Juaid</span> Have
+                Skills <span style={{ color: '#00adb5' }}>Juaid</span> Have
               </h2>
               <div className="row skills p-1 d-flex">
                 <div className="col-md-4">

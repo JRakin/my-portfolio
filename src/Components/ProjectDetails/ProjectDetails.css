@@ -1,7 +1,7 @@
 .project-card {
   box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.3);
   color: #111430;
-  background-color: #f7fbe1;
+  background-color: #fefefe;
   border-radius: 8px;
 }
 .card-wrap {
@@ -41,5 +41,5 @@
   border-radius: 4px;
   color: #fff;
   font-size: 14px;
-  background-color: #21bf73;
+  background-color: #00adb5;
 }

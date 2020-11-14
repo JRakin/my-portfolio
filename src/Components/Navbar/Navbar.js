@@ -6,9 +6,9 @@ import Pdf from '../../files/juaid-rakin-resume.pdf';
 const Navbar = () => {
   return (
     <div className="container">
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar py-3 navbar-expand-lg navbar-light">
         <Link
-          style={{ color: '#004445', fontSize: '22px', fontWeight: '700' }}
+          style={{ color: '#00adb5', fontSize: '22px', fontWeight: '700' }}
           className="navbar-brand"
           to="/"
         >

@@ -42,10 +42,11 @@ const ProjectDetails = ({ project }) => {
               </ul>
             </div>
           </div>
-          <div className="details-content d-flex justify-content-center align-items-center">
+          <div className="details-content d-flex flex-wrap justify-content-center align-items-center">
             <div>
               <a
-                className="btn-brand mr-3"
+                style={{ display: 'block' }}
+                className="btn-brand m-2"
                 target="_blank"
                 rel="noreferrer"
                 href={project.live}
@@ -53,7 +54,8 @@ const ProjectDetails = ({ project }) => {
                 Live Site
               </a>
               <a
-                className="btn-brand mr-3"
+                style={{ display: 'block' }}
+                className="btn-brand m-2"
                 target="_blank"
                 rel="noreferrer"
                 href={project.gitHub}
